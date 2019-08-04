@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MK First Layout</title>
+
+        <!-- Adding CSS -->
+        <style type="text/css">
+            body {
+                margin: 0; /*default 8px*/
+                padding: 0;
+                background: #313335;
+                background-image: url(./assets/images/MY_VARIANT_BACKGROUND.png);
+                background-repeat: no-repeat;
+            }
+            /* #141b23; (71, 26, 26)*/
+
+            ul {
+                width: 235px;
+                height: 15px;
+                margin-top: 65px;
+                margin-bottom: 71px;
+                margin-left: 55px;
+                /* Убираю маркер bullet */
+                list-style: none;
+                padding: 0;
+            }
+
+            ul > li {
+                /* Вывожу все элементи списка в одну строку */
+                display: inline;
+            }
+
+            li > a {
+                font-family: "Franklin Gothic Medium"; 
+                font-size: 17px;
+                color: #B1BBCB;
+                text-align: left;
+                /* Убираю подчёркивание ссылки */
+                text-decoration-line: none;
+            }
+            
+            h2 {
+                font-family: "Franklin Gothic Medium";
+                font-size: 24px;
+                /* Меняю заголовок с bold на normal */
+                font-weight: normal;
+                color:#ffffff;
+                text-align: left;
+                width: 156px;
+                height: 18px;
+                margin-top: 71px;
+                margin-bottom: 10px;
+                margin-left: 96px;
+                padding: 0;
+            }
+
+            .text > p {
+                font-family: "Franklin Gothic Medium";
+                font-size: 13px;
+                color: #ffffff;
+                text-align: left;
+                width: 467px;
+                height: 230px;
+                margin-top: 10px;
+                margin-bottom: 198px;
+                margin-left: 95px;
+                padding: 0;
+            }
+
+            .copyright > p {
+                font-family: "Franklin Gothic Medium";
+                font-size: 11px;
+                color:#54595F;
+                text-align: left;
+                width: 124px;
+                height: 9px;
+                margin-top: 198px;
+                margin-bottom: 50px;
+                margin-left: 54px;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">UM &nbsp;</a>
+                    </li>
+                    <li>
+                        <a href="#">Author&nbsp;</a>
+                    </li>
+                    <li>
+                        <a href="#">Album&nbsp;</a>
+                    </li>
+                    <li>
+                        <a href="#">Technology</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <header>
+                <h2>Ночная смена</h2>
+            </header>
+            
+            <div class="text">
+                <p>Холл с наслаждением затягивался сигаретой, развалившись  на  небольшой 
+                скамье недалеко от элеватора. Скамья эта была  единственным местом  на 
+                третьем этаже, где можно было спокойно перекурить и ненадолго отвлечься от 
+                работы, не опасаясь появления начальства.<br>
+                <br>
+                Именно в этот момент и  появился зловредный  Уорвик.  Холл  совершенно
+                не  ожидал  увидеть шефа и был, естественно, совсем не рад  этой  неожиданной
+                встрече,  рассчитывая, что Уорвик может появиться там никак не раньше трех.
+                Да и вообще,  он редко показывался на рабочих местах во время ночной
+                смены. Особенно на третьем этаже. В это время он предпочитал, обычно,
+                отсиживаться<br>
+                в своем офисе попивать кофе из своего любимого электрического кофейника,
+                который стоял у него прямо на рабочем столе. Кроме того, в последнее время
+                стояла  ужасная жара и, в связи с этим, выше первого этажа Уорвик обычно не
+                поднимался.</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="copyright">
+                <p>&copy; 2003-2008 UlinMusic</p>
+            </div class="copyright">
+        </footer>
+    </body>
+</html>
